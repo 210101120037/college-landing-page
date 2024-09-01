@@ -1,0 +1,49 @@
+/* Basic Styles */
+.services-section {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.service {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.service h3 {
+  margin: 10px 0;
+}
+
+.service p {
+  font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .services-section {
+    padding: 20px 10px;
+  }
+
+  .service {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .services-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .service p {
+    font-size: 0.9rem;
+  }
+}
